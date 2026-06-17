@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Environment variables and local secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Streamlit local state
+.streamlit/cache/
+
+# Generated/local artifacts
+outputs/
+work/
+*.doc
+*.docx
+*.pdf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
