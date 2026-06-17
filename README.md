@@ -15,19 +15,17 @@ Aplicación web en Python con Streamlit para generar informes psicopedagógicos,
 
 ```text
 .
-├── app.py
-├── requirements.txt
-├── README.md
-├── render.yaml
-├── data/
-│   └── tabulatest/
-│       ├── tabulatest_templates.json
-│       └── tabulatest_templates.xlsx
-└── baremos/
-    ├── psicologia/
-    ├── psicopedagogia/
-    └── fonoaudiologia/
-```
+app.py
+requirements.txt
+README.md
+render.yaml
+
+data/
+└── tabulatest/
+    ├── tabulatest_templates.json
+    └── tabulatest_templates.xlsx
+
+baremos/
 
 ## Variable de entorno
 
