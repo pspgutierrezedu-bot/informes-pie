@@ -1,0 +1,843 @@
+{
+  "nombre": "Plantillas Tabulatest por curso",
+  "descripcion": "Estructura de subtests y puntajes máximos transcrita desde capturas entregadas por Fernanda. Revisar contra manual antes de uso oficial.",
+  "reglas_calculo_genericas": {
+    "porcentaje_logro": "puntaje_obtenido / puntaje_maximo * 100",
+    "niveles_por_defecto": {
+      "Logrado": "80 a 100",
+      "Medianamente Logrado": "50 a 79.99",
+      "Por Lograr": "0 a 49.99"
+    },
+    "nota": "La velocidad lectora PPM se evalúa con criterio especial, no con puntaje máximo."
+  },
+  "templates": {
+    "prekinder": [
+      {
+        "area": "Psicomotricidad fina",
+        "subtest": "Copia patrón geométrico",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Psicomotricidad fina",
+        "subtest": "Traza líneas",
+        "puntaje_maximo": 2,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Percepción visual",
+        "subtest": "Asocia figura y sombra",
+        "puntaje_maximo": 3,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Percepción visual",
+        "subtest": "Reproduce patrón de líneas",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Percepción auditiva",
+        "subtest": "Asocia palabra e imagen",
+        "puntaje_maximo": 2,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Razonamiento verbal",
+        "subtest": "Razonamiento verbal",
+        "puntaje_maximo": 2,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Analogías verbales",
+        "subtest": "Analogías verbales",
+        "puntaje_maximo": 2,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Descripción de imágenes",
+        "subtest": "Descripción de imágenes",
+        "puntaje_maximo": 2,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Lectura",
+        "subtest": "Lectura",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Escritura",
+        "subtest": "Escritura",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Pensamiento numérico",
+        "subtest": "Gráfica secuencialmente números",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      }
+    ],
+    "kinder": [
+      {
+        "area": "Psicomotricidad Fina",
+        "subtest": "Traza Líneas",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Psicomotricidad Fina",
+        "subtest": "Recorta Figuras con Tijeras",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Percepción Visual",
+        "subtest": "Reconoce diferencias",
+        "puntaje_maximo": 7,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Percepción Visual",
+        "subtest": "Reproduce Patrón de Líneas",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Percepción Auditiva",
+        "subtest": "Reconoce rimas entre palabras",
+        "puntaje_maximo": 3,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Razonamiento Verbal",
+        "subtest": "Relata una historia escuchada",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Razonamiento Verbal",
+        "subtest": "Responde preguntas",
+        "puntaje_maximo": 3,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Analogías y opuestos verbales",
+        "subtest": "Reconoce analogías verbales",
+        "puntaje_maximo": 3,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Analogías y opuestos verbales",
+        "subtest": "Reconoce opuestos verbales",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      }
+    ],
+    "1_basico": [
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Memoria y Atención",
+        "puntaje_maximo": 20,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Series",
+        "puntaje_maximo": 12,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Clasificaciones",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Capacidades Espaciales",
+        "puntaje_maximo": 2,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Organización Perceptiva",
+        "puntaje_maximo": 18,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Comprensión Lectora",
+        "puntaje_maximo": 21,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Exactitud Lectora",
+        "puntaje_maximo": 27,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía Visual / Regla",
+        "puntaje_maximo": 64,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Grafomotricidad",
+        "puntaje_maximo": 12,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Cálculo y Numeración",
+        "puntaje_maximo": 74,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      }
+    ],
+    "2_basico": [
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Pensamiento Analógico",
+        "puntaje_maximo": 9,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Organización Perceptiva",
+        "puntaje_maximo": 16,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Clasificación",
+        "puntaje_maximo": 9,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Memoria y Atención",
+        "puntaje_maximo": 19,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Comprensión Lectora",
+        "puntaje_maximo": 15,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Exactitud Lectora",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Grafía",
+        "puntaje_maximo": 16,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía",
+        "puntaje_maximo": 46,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Cálculo y Numeración",
+        "puntaje_maximo": 35,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 7,
+        "tipo": "puntaje"
+      }
+    ],
+    "3_basico": [
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Memoria y Atención",
+        "puntaje_maximo": 74,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Reflexividad",
+        "puntaje_maximo": 14,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Analogías",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Organización Perceptiva",
+        "puntaje_maximo": 20,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Comprensión Lectora",
+        "puntaje_maximo": 18,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía y Fonética",
+        "puntaje_maximo": 18,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Grafía y Expresión Escrita",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Velocidad Lectora (PPM)",
+        "puntaje_maximo": null,
+        "tipo": "ppm"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Cálculo y Numeración",
+        "puntaje_maximo": 37,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 15,
+        "tipo": "puntaje"
+      }
+    ],
+    "4_basico": [
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Memoria y Atención",
+        "puntaje_maximo": 49,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Razonamiento Perceptivo",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Analogías Verbales",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Organización Perceptiva",
+        "puntaje_maximo": 24,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía",
+        "puntaje_maximo": 18,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Escritura",
+        "puntaje_maximo": 22,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Lectura y Comprensión",
+        "puntaje_maximo": 24,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Velocidad Lectora (PPM)",
+        "puntaje_maximo": null,
+        "tipo": "ppm"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Cálculo y Numeración",
+        "puntaje_maximo": 37,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      }
+    ],
+    "5_basico": [
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Memoria y Atención",
+        "puntaje_maximo": 107,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Razonamiento Lógico",
+        "puntaje_maximo": 41,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Comprensión Lectora",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía Visual y Reglada",
+        "puntaje_maximo": 24,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Exactitud Lectora",
+        "puntaje_maximo": 23,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Velocidad Lectora (PPM)",
+        "puntaje_maximo": null,
+        "tipo": "ppm"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía Fonética",
+        "puntaje_maximo": 18,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Expresión Escrita",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Cálculo y Numeración",
+        "puntaje_maximo": 86,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 12,
+        "tipo": "puntaje"
+      }
+    ],
+    "6_basico": [
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Reflexividad",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Pensamiento Analógico",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Organización Perceptiva",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Memoria y Atención",
+        "puntaje_maximo": 7,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Comprensión Lectora",
+        "puntaje_maximo": 18,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Expresión Escrita",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Velocidad Lectora (PPM)",
+        "puntaje_maximo": null,
+        "tipo": "ppm"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía Visual y Reglada",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía Fonética",
+        "puntaje_maximo": 26,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Cálculo y Numeración",
+        "puntaje_maximo": 14,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      }
+    ],
+    "7_basico": [
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Atención y Concentración",
+        "puntaje_maximo": 151,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Razonamiento Deductivo",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Razonamiento Inductivo",
+        "puntaje_maximo": 9,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Razonamiento Espacial",
+        "puntaje_maximo": 14,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Eficacia Lectora",
+        "puntaje_maximo": 24,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Comprensión Lectora",
+        "puntaje_maximo": 5,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Expresión Escrita",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Velocidad Lectora (PPM)",
+        "puntaje_maximo": null,
+        "tipo": "ppm"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía Visual y Reglada",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía Fonética",
+        "puntaje_maximo": 30,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Cálculo y Numeración",
+        "puntaje_maximo": 18,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      }
+    ],
+    "8_basico": [
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Atención y Concentración",
+        "puntaje_maximo": 128,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Razonamiento Deductivo",
+        "puntaje_maximo": 12,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Razonamiento Inductivo",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Cognitiva",
+        "subtest": "Razonamiento Espacial",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Eficacia Lectora",
+        "puntaje_maximo": 11,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Comprensión Lectora",
+        "puntaje_maximo": 9,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Expresión Escrita",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Velocidad Lectora (PPM)",
+        "puntaje_maximo": null,
+        "tipo": "ppm"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía Visual y Reglada",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Lectura y Escritura",
+        "subtest": "Ortografía Fonética",
+        "puntaje_maximo": 30,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Cálculo y Numeración",
+        "puntaje_maximo": 13,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Área Matemática",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      }
+    ],
+    "1_medio": [
+      {
+        "area": "Habilidades de Lectura y Escritura",
+        "subtest": "Calidad de la Lectura",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades de Lectura y Escritura",
+        "subtest": "Velocidad Lectora (PPM)",
+        "puntaje_maximo": null,
+        "tipo": "ppm"
+      },
+      {
+        "area": "Habilidades de Lectura y Escritura",
+        "subtest": "Comprensión de Lectura",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades de Lectura y Escritura",
+        "subtest": "Expresión Escrita",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Cálculo de Operatoria Básica",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Cálculo de Porcentajes",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Lenguaje Algebraico",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Cálculo de Probabilidades",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Relación de Tablas y Gráficos",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Representación en Plano Cartesiano",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Propiedades de Figuras Geométricas",
+        "puntaje_maximo": 16,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Mecánica Operatoria",
+        "puntaje_maximo": 16,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Cálculo Mental",
+        "puntaje_maximo": 12,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      }
+    ],
+    "2_medio": [
+      {
+        "area": "Habilidades de Lectura y Escritura",
+        "subtest": "Calidad de la Lectura",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades de Lectura y Escritura",
+        "subtest": "Velocidad Lectora (PPM)",
+        "puntaje_maximo": null,
+        "tipo": "ppm"
+      },
+      {
+        "area": "Habilidades de Lectura y Escritura",
+        "subtest": "Comprensión de Lectura",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades de Lectura y Escritura",
+        "subtest": "Expresión Escrita",
+        "puntaje_maximo": 10,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Cálculo Operatoria Básica",
+        "puntaje_maximo": 8,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Cálculo de Porcentajes",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Ecuaciones",
+        "puntaje_maximo": 6,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Cálculo de Probabilidades",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Tablas y Gráficos",
+        "puntaje_maximo": 4,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Plano Cartesiano",
+        "puntaje_maximo": 9,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Figuras Geométricas",
+        "puntaje_maximo": 9,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Mecánica Operatoria",
+        "puntaje_maximo": 16,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Cálculo Mental",
+        "puntaje_maximo": 12,
+        "tipo": "puntaje"
+      },
+      {
+        "area": "Habilidades Matemáticas",
+        "subtest": "Resolución de Problemas",
+        "puntaje_maximo": 14,
+        "tipo": "puntaje"
+      }
+    ]
+  }
+}
